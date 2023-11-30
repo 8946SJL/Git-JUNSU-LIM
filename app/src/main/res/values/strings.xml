@@ -1,0 +1,45 @@
+<resources>
+    <!-- bottom_nav_home-->
+    <string name="nav_home_home">홈</string>
+    <string name="nav_home_send">송금</string>
+
+    <!-- HomeFragment-->
+    <string name="fr_home_tv_title">원밀리언페이</string>
+    <string name="fr_home_tv_registration">결제 수단을 등록해주세요</string>
+    <string name="fr_home_tv_sendHistory">송금내역</string>
+    <string name="fr_home_empty">아직 거래 내역이 없어요</string>
+
+    <!-- PayRegistrationFragment-->
+    <string name="fr_pay_registration_tv_title">결제 수단 등록</string>
+    <string name="fr_pay_registration_tv_card_number">카드 번호</string>
+    <string name="fr_pay_registration_tv_expiration_period">유효기간</string>
+    <string name="fr_pay_registration_tv_password">비밀번호 앞 2자리</string>
+    <string name="fr_pay_registration_tv_card_name">카드 이름</string>
+    <string name="fr_pay_registration_iet_card_number">Card Number</string>
+    <string name="fr_pay_registration_iet_expiration_period">MM/YY</string>
+    <string name="fr_pay_registration_iet_password">··</string>
+    <string name="fr_pay_registration_iet_card_name">카드 이름 입력</string>
+    <string name="fr_pay_registration_btn_check">확인</string>
+
+    <!-- CompletedFragment-->
+    <string name="fr_completed_tv_completeMessage">결제 수단이 정상적으로\n 등록되었어요</string>
+    <string name="fr_completed_btn_confirm">확인</string>
+
+    <!-- TransferMoneyFragment-->
+    <string name="fr_transfer_money_sendDescription">얼마나 보낼까요?</string>
+    <string name="fr_transfer_money_tv_person_name">김철수</string>
+    <string name="fr_transfer_money_tv_account">신한은행 000-111-222222</string>
+    <string name="fr_transfer_money_btn_confirmed">확인</string>
+    <string name="fr_transfer_money_btn_num_one">1</string>
+    <string name="fr_transfer_money_btn_num_two">2</string>
+    <string name="fr_transfer_money_btn_num_three">3</string>
+    <string name="fr_transfer_money_btn_num_four">4</string>
+    <string name="fr_transfer_money_btn_num_five">5</string>
+    <string name="fr_transfer_money_btn_num_six">6</string>
+    <string name="fr_transfer_money_btn_num_seven">7</string>
+    <string name="fr_transfer_money_btn_num_eight">8</string>
+    <string name="fr_transfer_money_btn_num_nine">9</string>
+    <string name="fr_transfer_money_btn_num_double_zero">00</string>
+    <string name="fr_transfer_money_btn_num_zero">0</string>
+    <string name="fr_transfer_money_snackbar_comment">10억 미만의 금액만 송금할 수 있습니다</string>
+</resources>

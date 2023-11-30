@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="center_horizontal">
+
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-100dp"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:columnCount="3"
+        android:layout_marginTop="10dp"
+        android:id="@+id/gridLayout">
+
+
+
+        <TextView
+            android:id="@+id/tv_num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:clickable="true"
+            tools:layout_conversion_absoluteHeight="60dp"
+            tools:layout_editor_absoluteY="458dp"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_conversion_absoluteWidth="97dp"
+            android:background="@drawable/textview_background"/>
+
+        <TextView
+            android:id="@+id/tv_num2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            tools:layout_conversion_absoluteHeight="60dp"
+            tools:layout_editor_absoluteY="458dp"
+            tools:layout_editor_absoluteX="166dp"
+            tools:layout_conversion_absoluteWidth="97dp"
+            android:background="@drawable/textview_background"/>
+
+
+
+        <TextView
+            android:id="@+id/tv_num3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            tools:layout_conversion_absoluteHeight="60dp"
+            tools:layout_editor_absoluteY="458dp"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_conversion_absoluteWidth="97dp"
+            android:background="@drawable/textview_background"/>
+
+        <TextView
+            android:id="@+id/tv_num4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            tools:layout_conversion_absoluteHeight="60dp"
+            tools:layout_editor_absoluteY="518dp"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_conversion_absoluteWidth="97dp"
+            android:background="@drawable/textview_background"/>
+
+        <TextView
+            android:id="@+id/tv_num5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            tools:layout_conversion_absoluteHeight="60dp"
+            tools:layout_editor_absoluteY="518dp"
+            tools:layout_editor_absoluteX="166dp"
+            tools:layout_conversion_absoluteWidth="97dp"
+            android:background="@drawable/textview_background"/>
+
+        <TextView
+            android:id="@+id/tv_num6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            tools:layout_conversion_absoluteHeight="60dp"
+            tools:layout_editor_absoluteY="518dp"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_conversion_absoluteWidth="97dp"
+            android:background="@drawable/textview_background"/>
+
+        <TextView
+            android:id="@+id/tv_num7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            tools:layout_conversion_absoluteHeight="60dp"
+            tools:layout_editor_absoluteY="579dp"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_conversion_absoluteWidth="97dp"
+            android:background="@drawable/textview_background"/>
+
+        <TextView
+            android:id="@+id/tv_num8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            tools:layout_conversion_absoluteHeight="60dp"
+            tools:layout_editor_absoluteY="579dp"
+            tools:layout_editor_absoluteX="166dp"
+            tools:layout_conversion_absoluteWidth="97dp"
+            android:background="@drawable/textview_background"/>
+
+        <TextView
+            android:id="@+id/tv_num9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            tools:layout_conversion_absoluteHeight="60dp"
+            tools:layout_editor_absoluteY="579dp"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_conversion_absoluteWidth="97dp"
+            android:background="@drawable/textview_background"/>
+
+        <TextView
+            android:id="@+id/tv_num10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            tools:layout_conversion_absoluteHeight="60dp"
+            tools:layout_editor_absoluteY="639dp"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_conversion_absoluteWidth="114dp"
+            android:background="@drawable/textview_background"/>
+
+        <TextView
+            android:id="@+id/tv_num11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            tools:layout_conversion_absoluteHeight="60dp"
+            tools:layout_editor_absoluteY="639dp"
+            tools:layout_editor_absoluteX="166dp"
+            tools:layout_conversion_absoluteWidth="97dp"
+            android:background="@drawable/textview_background"/>
+
+        <TextView
+            android:id="@+id/tv_num12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            tools:layout_conversion_absoluteHeight="60dp"
+            tools:layout_editor_absoluteY="639dp"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_conversion_absoluteWidth="80dp"
+            android:background="@drawable/textview_background"/>
+        <!--            배율 별로 가져와서 화질 수정하기-->
+
+    </GridLayout>
+
+</LinearLayout>

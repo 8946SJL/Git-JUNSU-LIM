@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Pay_TextView_XSmallGray_300" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/xSmall</item>
+        <item name="android:textColor">@color/gray_300</item>
+    </style>
+
+    <style name="Pay_TextView_SmallBlack" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/small</item>
+        <item name="android:textColor">@color/black_100</item>
+<!--        <item name="fontFamily">@font/roboto_regular</item>-->
+    </style>
+
+    <style name="Pay_TextView_SmallBoldBlack" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black_100</item>
+    </style>
+
+    <style name="Pay_TextView_SmallBoldBlack_200" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black_200</item>
+    </style>
+
+    <style name="Pay_TextView_SmallGray" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/small</item>
+        <item name="android:textColor">@color/gray_300</item>
+    </style>
+
+    <style name="Pay_TextView_SmallBlue" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/small</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="Pay_TextView_LargeBoldBlack" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/large</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black_100</item>
+    </style>
+
+    <style name="Pay_TextView_LargeBoldBlack_200" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/large</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black_200</item>
+    </style>
+
+    <style name="Pay_TextView_XLargeBoldBlack" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/xLarge</item>
+        <item name="android:textColor">@color/black_200</item>
+        <item name="android:textStyle">bold</item>
+        <!--<item name="android:fontFamily">@font/roboto_bold</item>-->
+    </style>
+
+    <style name="Pay_TextView_XLargeBoldBlack_Width_40_Height_40" parent="Pay_TextView_XLargeBoldBlack">
+        <item name="android:width">40dp</item>
+        <item name="android:height">40dp</item>
+    </style>
+
+    <style name="Pay_EditText_SmallBlack" parent="ThemeOverlay.Material3.TextInputEditText">
+        <!--<item name="fontFamily">@font/roboto_regular</item>-->
+        <item name="android:textSize">@dimen/small</item>
+        <item name="android:textColor">@color/black_200</item>
+    </style>
+
+    <style name="Pay_Button_MiddleBold" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textColor">@drawable/selector_button_text_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/middle</item>
+    </style>
+
+    <style name="Pay_button_MiddleBoldWhite" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/middle</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Pay_Button_Large" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/large</item>
+        <!--<item name="fontFamily">@font/roboto_regular</item>-->
+    </style>
+
+    <style name="Pay_Button_XLargeBoldBlack_200" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/xLarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black_200</item>
+    </style>
+
+    <style name="Pay_Navigation" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">@dimen/xxSmall</item>
+    </style>
+    <style name="Pay_Navigation.Active" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">@dimen/xxSmall</item>
+    </style>
+</resources>
